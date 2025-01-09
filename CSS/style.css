@@ -8,7 +8,7 @@
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
     outline: none;
 }
@@ -125,9 +125,9 @@ header .navbar ul li a:hover{
 
 /* started home contents */
 .home{
-    min-height: 100vh;
+    height: 800px;
     width: 100%;
-    background:linear-gradient(rgba(198, 59, 250, 0.8), rgba(198, 59, 250, 0.8)), url("media/home-back.jpg") no-repeat;
+    background:linear-gradient(rgba(198, 59, 250, 0.8), rgba(198, 59, 250, 0.8)), url("/mmedia/home-back.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -233,7 +233,7 @@ header .navbar ul li a:hover{
 .home::before{
     content: "";
     position: absolute;
-    bottom: -40%;
+    bottom: -30%;
     left: 50%;
     transform: translateX(-50%);
     border-top:70vh solid #fff;
